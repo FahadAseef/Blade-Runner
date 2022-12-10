@@ -6564,6 +6564,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5786324334614323514, guid: 955ab8b1029aef64f86b7178a154bf15, type: 3}
+      propertyPath: m_Center.y
+      value: 0.92
+      objectReference: {fileID: 0}
     - target: {fileID: 5786324334614323519, guid: 955ab8b1029aef64f86b7178a154bf15, type: 3}
       propertyPath: Anime
       value: 
@@ -6582,7 +6586,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6325198124052979599, guid: 955ab8b1029aef64f86b7178a154bf15, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.06
+      value: 0.09
       objectReference: {fileID: 0}
     - target: {fileID: 6325198124052979599, guid: 955ab8b1029aef64f86b7178a154bf15, type: 3}
       propertyPath: m_LocalPosition.z

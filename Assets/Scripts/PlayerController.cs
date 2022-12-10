@@ -20,6 +20,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float jumpForce = 10f;
     [SerializeField] float gravity = 9f;
 
+    //animation
+    [SerializeField] Animator Anime;
+
 
     private void Start()
     {
@@ -60,12 +63,16 @@ public class PlayerController : MonoBehaviour
         moveVector.x = (targetPosition - transform.position).normalized.x * speed;
 
 
+        bool isGrounded = IsGrounded();
+        Anime.SetBool("grounded", isGrounded);
+
         //jump
-        if (isGrounded())
+        if (isGrounded)
         {
             verticalVelocity = -0.1f;
             if (Input.GetKeyDown(KeyCode.Space))
             {
+                Anime.SetTrigger("jump");
                 verticalVelocity = jumpForce;
             }
         }
@@ -121,7 +128,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    private bool isGrounded()
+    private bool IsGrounded()
     {
         Ray groundRay = new Ray(
             new Vector3(

@@ -1,62 +1,12 @@
 fileFormatVersion: 2
-guid: ac85d3da98671ea4d9880d434f9da076
+guid: 1cabd10fdff69b34481bc9cc9bba7a77
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
   - first:
       74: -203655887218126122
-    second: mixamo.com
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Ch11_body
-    second: {fileID: 2100000, guid: aa559fb3db9f5ff4dbcdd28c8ad46532, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Ch11_body1
-    second: {fileID: 2100000, guid: c00e3d19052c5db4490c70ed509265cd, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Ch11_1001_Diffuse
-    second: {fileID: 2800000, guid: 1324ce2805703334797f9255a5e11523, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Ch11_1001_Glossiness
-    second: {fileID: 2800000, guid: 1e0ccc50b843d8942a76e4a52d43254d, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Ch11_1001_Normal
-    second: {fileID: 2800000, guid: de8c0db03ca8fa745a9f7d401095e49d, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Ch11_1001_Specular
-    second: {fileID: 2800000, guid: 345e497b2451419439b877a23d620c46, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Ch11_1002_Diffuse
-    second: {fileID: 2800000, guid: 58c8a6172bcc0cb448cf9fba0d13caf3, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Ch11_1002_Glossiness
-    second: {fileID: 2800000, guid: 0913470c168da1046aab4c27c7408db3, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Ch11_1002_Normal
-    second: {fileID: 2800000, guid: 532fe206d48930e4baeb5c17afd5e7ad, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Ch11_1002_Specular
-    second: {fileID: 2800000, guid: b2ecd622bedc82a4f97e0859a13777a2, type: 3}
+    second: Jump
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -84,7 +34,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Jump
+      takeName: mixamo.com
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 26
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -128,9 +107,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips:
-  - 1cabd10fdff69b34481bc9cc9bba7a77
-  - 6e964cbdea7a5e84d91778e660153522
+  referencedClips: []
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
@@ -899,11 +876,11 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: ac85d3da98671ea4d9880d434f9da076, type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 2
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
